@@ -1,1 +1,2 @@
-Cube App
+Cube SwiftUI App
+
