@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct PathView: View {
+struct PathV2View: View {
     var body: some View {
         GeometryReader { geometry in
             let width = geometry.size.width
@@ -52,7 +52,7 @@ struct PathView: View {
 }
 
 #Preview {
-    PathView()
+    PathV2View()
         .frame(width: 300, height: 300)
         .border(Color.blue)
         
